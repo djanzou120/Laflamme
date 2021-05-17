@@ -3,7 +3,7 @@
 
 <head>
     <!-- Place this data between the <head> tags of your website -->
-    <title>Accueil | ElAT BOBENYAÑ</title>
+    <title>Accueil | La flamme de l'espoir</title>
     <meta charset="utf-8">
     <!-- <meta name="description" content="Page description. No longer than 155 characters." /> -->
 

@@ -482,7 +482,7 @@ video {
 }
 
 .bg-green-darkest {
-  background-color: #4a2c19;
+  background-color: #fe9c0d;
 }
 
 .bg-green {
@@ -4650,13 +4650,13 @@ video {
 }
 
 body {
-  color: #4a2c19;
+  color: black;
   font-family: Graphik--web;
 }
 
 .header-sm {
   font-size: 0.75rem;
-  color: #785540;
+  color: black;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0.0362rem;
@@ -5276,8 +5276,8 @@ button {
 }
 
 .btn.-light {
-  border-color: #a8826b;
-  color: #a8826b;
+  border-color: white;
+  color: white;
 }
 
 .btn.-light:hover {
@@ -6899,7 +6899,7 @@ body {
   -webkit-transition-property: all;
   transition-property: all;
   font-size: 0.875rem;
-  color: #785540;
+  color: #fe843a;
   padding-bottom: 0.25rem;
   border-bottom-width: 2px;
   border-color: transparent;
@@ -7138,7 +7138,7 @@ body {
 }
 
 .bg-green-darkest .section-header .header {
-  color: #a8826b;
+  color: #fc671f;
 }
 
 .bg-green-darkest .section-header .paragraphs {
@@ -10583,6 +10583,7 @@ body {
 }
 
 .site-footer {
+  padding: 90px 0;
   border-top-width: 1px;
   border-color: #f1f1f1;
 }

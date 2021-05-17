@@ -30,7 +30,7 @@ Content Types:
 
 
                     <h2 class="header">Bienvenue sur
-                        Elat Bobenyañ
+                        La flamme de l'espoir
                     </h2>
 
                     <h4 class="subheader | header-sm | pb-5">Association de l’élite de la vallée du ntem</h4>
@@ -48,7 +48,7 @@ Content Types:
             <aside class="media-article__aside">
                 <figure class="image -auto-height -is1x1 | md:block hidden">
                     <img
-                        src="https://images.ctfassets.net/x5sq5djrgbwu/CqLPJKWBUQpjZch6piuS1/cfa4012b00c53f5a75596179a138dfbe/Finding-Solutions-Minor-Edits-Final-May-20.jpg"
+                        src="{{asset('assets/burgundy-49.png')}}"
                         alt="" class="fit-cover"/>
                 </figure>
                 <figure class="image -mobile -is12x16 | md:hidden block">
@@ -69,7 +69,7 @@ Content Types:
         <header class="section-header | ">
             <div class="section-header__content">
                 <h4 class="header-sm">
-                    <p>Pourquoi Elat Bobenyañ ?</p>
+                    <p>Pourquoi La Flamme de l'espoir ?</p>
                 </h4>
 
                 <h2 class="header | header-lg">
@@ -218,7 +218,7 @@ Content Types:
             <aside class="media-article__aside  | md:pb-0 pb-4">
                 <figure class="image -is8x20 | md:block hidden">
                     <img
-                        src="https://images.ctfassets.net/x5sq5djrgbwu/3snG8QsSyHMEP6HYdhIzMZ/e74b858d58aba5b2d0c9bc12cc0851cc/priscilla-du-preez-234138-unsplash_copy_2.jpg"
+                        src="{{asset('assets/IMG_7026.JPG')}}"
                         alt="" class="fit-cover">
                 </figure>
                 <figure class="image -is2x1 | md:hidden block">

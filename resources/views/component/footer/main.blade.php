@@ -8,8 +8,7 @@
                     <!-- Logo -->
                     <a href="/" class="site-footer__logo">
                 <span class="logo | icon">
-                  <span class="logo | icon logoElat2">
-                  </span>
+                  <img class="logo" src="{{asset('./assets/logo.png')}}" alt="">
                 </span>
                     </a>
 
@@ -25,7 +24,7 @@
 
                         <div class="hcard__item | addr | mb-5">
                             <p style="margin-bottom: 7px; font-size: 14px;">Yaounde - Cameroun BP: 2367</p>
-                            <p style="margin-bottom: 7px; font-size: 14px;">© 2020 Elat Bobenyañ by <a
+                            <p style="margin-bottom: 7px; font-size: 14px;">© 2021 La Flamme by <a
                                     href="https://www.bhent.net/" class="bhent"> Bhent Inc</a> </p>
                             <p></p>
                         </div>

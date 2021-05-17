@@ -4,10 +4,9 @@
     <site_menu class="site-header__menu">
         <!-- Logo -->
         <template slot="logo">
-            <div class="logo-box ">
-            <span class="logo | icon logoElat">
-            </span>
-                <div class="textElat">Elat Bobenyañ</div>
+            <div class="logo-box">
+                <img class="logo" src="{{asset('./assets/logo.png')}}" alt="">
+                <div class="textElat">La Flamme de l'Espoir</div>
             </div>
         </template>
 
@@ -18,41 +17,38 @@
                     <a role="menuitem" aria-haspopup="false" href="/" class="menu-bar__link meberan"
                        tabindex="0">Accueil</a>
                 </li>
-                <li class="menu-bar__item">
-                    <a role="menuitem" aria-haspopup="false" href="{{route('blog')}}" class="menu-bar__link abaa"
-                       tabindex="0">Blog</a>
-                </li>
-                <li class="menu-bar__item">
-                    <a role="menuitem" aria-haspopup="false" href="{{route('forum')}}" class="menu-bar__link minlan"
-                       tabindex="0">Forum</a>
-                </li>
+
                 <li class="menu-bar__item">
                     <a role="menuitem" aria-haspopup="false" href="{{route('about')}}" class="menu-bar__link apropos"
-                       tabindex="0">A propos</a>
+                       tabindex="0">About Us</a>
+                </li>
+                <li class="menu-bar__item">
+                    <a role="menuitem" aria-haspopup="false" href="{{route('blog')}}" class="menu-bar__link abaa"
+                       tabindex="0">Showcase</a>
                 </li>
                 <li class="menu-bar__item">
                     <a role="menuitem" aria-haspopup="false" href="{{route('contact')}}" class="menu-bar__link medres"
-                       tabindex="0">Contact</a>
+                       tabindex="0">Contact Us</a>
                 </li>
-                @auth()
-                    <li class="menu-bar__item">
-                        <a role="menuitem" aria-haspopup="false" onclick="event.preventDefault();
-                                                 document.getElementById('logout-form').submit();" class="menu-bar__link connexion " tabindex="0"
-                           href="{{route('logout')}}">Deconnexion</a>
-                    </li>
-                    <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                          style="display: none;">
-                        {{ csrf_field() }}
-                @else
-                    <li class="menu-bar__item">
-                        <a role="menuitem" aria-haspopup="false" class="menu-bar__link connexion " tabindex="0"
-                           href="{{route('login')}}">Connexion</a>
-                    </li>
-                    <li class="menu-bar__item">
-                        <a role="menuitem" aria-haspopup="false" class="menu-bar__link tiliban" tabindex="0"
-                           href="{{route('register')}}">S'inscrire</a>
-                    </li>
-                @endauth
+{{--                @auth()--}}
+{{--                    <li class="menu-bar__item">--}}
+{{--                        <a role="menuitem" aria-haspopup="false" onclick="event.preventDefault();--}}
+{{--                                                 document.getElementById('logout-form').submit();" class="menu-bar__link connexion " tabindex="0"--}}
+{{--                           href="{{route('logout')}}">Deconnexion</a>--}}
+{{--                    </li>--}}
+{{--                    <form id="logout-form" action="{{ route('logout') }}" method="POST"--}}
+{{--                          style="display: none;">--}}
+{{--                        {{ csrf_field() }}--}}
+{{--                @else--}}
+{{--                    <li class="menu-bar__item">--}}
+{{--                        <a role="menuitem" aria-haspopup="false" class="menu-bar__link connexion " tabindex="0"--}}
+{{--                           href="{{route('login')}}">Connexion</a>--}}
+{{--                    </li>--}}
+{{--                    <li class="menu-bar__item">--}}
+{{--                        <a role="menuitem" aria-haspopup="false" class="menu-bar__link tiliban" tabindex="0"--}}
+{{--                           href="{{route('register')}}">S'inscrire</a>--}}
+{{--                    </li>--}}
+{{--                @endauth--}}
             </ul>
         </template>
 
