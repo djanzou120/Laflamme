@@ -15,7 +15,7 @@
 
                     <!-- Header -->
                     <header slot="header">
-                        <h4 class="header-xl-2 text-green-light | mb-0">Rejoindre Elat Bobenyañ</h4>
+                        <h4 class="header-xl-2 text-green-light | mb-0">Rejoindre La Flamme de L'espoir</h4>
                         <!--  <h5 class="header-sm -light">
               Fill out the form
               </h5> -->
@@ -34,29 +34,26 @@
 
                                             <div class="form-group">
                                                 <div class="field-group">
-                                                    <label class="standard-label" for="name">Name</label>
-                                                    <input required="required" class="field" type="text" name="name" id="name" maxlength="120" />
+                                                    <label class="standard-label" for="lastname">Noms</label>
+                                                    <input required="required" class="field" type="text" name="lastname" id="lastname" maxlength="120" />
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <div class="field-group">
-                                                    <label class="standard-label" for="email">Email</label>
-                                                    <input required="required" class="field" type="email" name="email" id="email" maxlength="140" />
+                                                    <label class="standard-label" for="firstname">Prenoms</label>
+                                                    <input required="required" class="field" type="text" name="firstname" id="firstname" maxlength="120" />
                                                 </div>
                                             </div>
-
                                             <div class="form-group">
                                                 <div class="field-group">
-                                                    <label class="standard-label" for="company_name">Company Name</label>
-                                                    <input required="required" class="field" type="text" name="company"
-                                                           id="company_name" maxlength="100" />
+                                                    <label class="standard-label" for="contact">Contact</label>
+                                                    <input required="required" class="field" type="text" name="contact" id="contact" maxlength="140" />
                                                 </div>
                                             </div>
-
                                             <div class="form-group">
                                                 <div class="field-group">
-                                                    <label class="standard-label" for="phone_number">Phone Number</label>
-                                                    <input class="field" type="tel" name="phone" id="phone_number" required="required" maxlength="20"/>
+                                                    <label class="standard-label" for="message">Message</label>
+                                                    <textarea required="required" class="field" type="text" name="message" id="message" ></textarea>
                                                 </div>
                                             </div>
                                             <div class="form-group ">

@@ -12,5 +12,5 @@ class Contact extends Model
 
     public $table = 'contacts';
 
-    public $fillable = ['company', 'name', 'email', 'phone'];
+    public $fillable = ['firstname', 'lastname', 'contact', 'message'];
 }

@@ -15,10 +15,10 @@ class CreateContactTable extends Migration
     {
         Schema::create('contacts', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('company', 100);
-            $table->string('name', 120);
-            $table->string('email', 140);
-            $table->string('phone', 20);
+            $table->string('firstname', 120);
+            $table->string('lastname', 120);
+            $table->string('contact', 140);
+            $table->text('message');
             $table->timestamps();
             $table->softDeletes();
         });

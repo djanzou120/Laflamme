@@ -56,6 +56,7 @@
     <link href='https://fonts.googleapis.com/css?family=Rajdhani:400,700,600,500,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Halant:400,300,500,600,700' rel='stylesheet' type='text/css'>
 
+
     <link rel="stylesheet" media="all" href="{{asset('packs/css/application-c05d5573.css')}}"/>
     <link rel="stylesheet" media="all" href="{{asset('packs/css/custom.css')}}"/>
     <link rel="stylesheet" media="all"
@@ -84,8 +85,11 @@
 
 </div>
 
+
 <script src="{{asset('packs/js/application-1780574b941cb2e4102b.js')}}"></script>
 <script src="{{asset('assets/application-3ace888bce61f9744ae995faed1261b4d66ca73d3391a8a323e58d67c808b79f.js')}}"></script>
+<script src="{{asset('assets/bootstrap.min.js')}}"></script>
+<script src="{{asset('assets/custom.js')}}"></script>
 
 
 <!-- Global site tag (gtag.js) - Google AdWords: 801673963 -->
