@@ -52,7 +52,7 @@ Content Types:
                 </figure>
                 <figure class="image -mobile -is12x16 | md:hidden block">
                     <img
-                        src="https://images.ctfassets.net/x5sq5djrgbwu/2RwXRlX3zHVjJcoUNNcFmK/e9881e02a0f6790894ec42b39b230a20/finding_solutions-cropped.png"
+                        src="{{asset('assets/IMG_7026.JPG')}}"
                         alt="" class="fit-cover"/>
                 </figure>
 
@@ -246,7 +246,7 @@ Content Types:
 
         <!--   Profile Card  - Modal  -->
         <div class="director">
-            <div class="col-4 img-profile">
+            <div class="col- img-profile">
                 <div>
                     <img src="https://dwv100zweqd2m.cloudfront.net/uploads/user/avatar/26/Jose_Neves_Avatar_good.jpg" alt="">
                 </div>

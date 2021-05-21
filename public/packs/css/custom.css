@@ -431,6 +431,9 @@ a,.menu-bar__link:after{
     text-transform: capitalize;
     font-weight: normal;
 }
+.image{
+    padding-top: 0 !important;
+}
 
 
 /*
@@ -439,3 +442,21 @@ section#impact {
     padding-bottom: 0;
 }
 /*FIN SLIDER*/
+
+@media (max-width: 736px) {
+    .content-description {
+        padding: 0 !important;
+    }
+
+    .img-profile {
+        width: 100% !important;
+    }
+
+    .director {
+        flex-direction: column !important;
+    }
+
+    .site-header__menu__container {
+        flex-direction: inherit !important;
+    }
+}

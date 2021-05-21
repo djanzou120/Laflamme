@@ -325,6 +325,8 @@ video {
   }
 }
 
+
+
 @media (min-width: 576px) {
   .container {
     max-width: 576px;
@@ -353,6 +355,14 @@ video {
   .container {
     max-width: 1300px;
   }
+}
+@media (max-width: 736px) {
+    .site-header__menu__container{
+        flex-direction: inherit;
+    }
+    .textElat{
+        line-height: 2.6rem !important;
+    }
 }
 
 .sr-only {
@@ -486,7 +496,7 @@ video {
 }
 
 .bg-green {
-  background-color: #785540;
+  background-color: #fe9b12;
 }
 
 .bg-green-light {
@@ -566,7 +576,7 @@ video {
 }
 
 .hover\:bg-green:hover {
-  background-color: #785540;
+  background-color: #fe9b12;
 }
 
 .hover\:bg-green-light:hover {
@@ -646,7 +656,7 @@ video {
 }
 
 .focus\:bg-green:focus {
-  background-color: #785540;
+  background-color: #fe9b12;
 }
 
 .focus\:bg-green-light:focus {
@@ -806,7 +816,7 @@ video {
 }
 
 .border-green {
-  border-color: #785540;
+  border-color: #fe9b12;
 }
 
 .border-green-light {
@@ -886,7 +896,7 @@ video {
 }
 
 .hover\:border-green:hover {
-  border-color: #785540;
+  border-color: #fe9b12;
 }
 
 .hover\:border-green-light:hover {
@@ -966,7 +976,7 @@ video {
 }
 
 .focus\:border-green:focus {
-  border-color: #785540;
+  border-color: #fe9b12;
 }
 
 .focus\:border-green-light:focus {
@@ -3691,7 +3701,7 @@ video {
 }
 
 .placeholder-green::placeholder {
-  color: #785540;
+  color: #fe9b12;
 }
 
 .placeholder-green-light::placeholder {
@@ -3771,7 +3781,7 @@ video {
 }
 
 .focus\:placeholder-green:focus::placeholder {
-  color: #785540;
+  color: #fe9b12;
 }
 
 .focus\:placeholder-green-light:focus::placeholder {
@@ -4065,11 +4075,11 @@ video {
 }
 
 .text-green {
-  color: #785540;
+  color: #fe9b12;
 }
 
 .text-green-light {
-  color: #a8826b;
+  color: #000;
 }
 
 .text-green-light-accessible {
@@ -4145,7 +4155,7 @@ video {
 }
 
 .hover\:text-green:hover {
-  color: #785540;
+  color: #fe9b12;
 }
 
 .hover\:text-green-light:hover {
@@ -4225,7 +4235,7 @@ video {
 }
 
 .focus\:text-green:focus {
-  color: #785540;
+  color: #fe9b12;
 }
 
 .focus\:text-green-light:focus {
@@ -4715,7 +4725,7 @@ body {
 }
 
 .paragraphs p a {
-  color: #785540;
+  color: #fe9b12;
 }
 
 .paragraphs p a:hover {
@@ -4743,7 +4753,7 @@ body {
 }
 
 a {
-  color: #785540;
+  color: #fe9b12;
 }
 
 @media (min-width: 992px) {
@@ -5072,9 +5082,9 @@ html {
 }
 
 .link.-underline {
-  color: #785540;
+  color: #fe9b12;
   border-bottom-width: 3px;
-  border-color: #785540;
+  border-color: #fe9b12;
   padding-bottom: 0.25rem;
 }
 
@@ -5095,7 +5105,7 @@ html {
 }
 
 .link.-green {
-  color: #785540;
+  color: #fe9b12;
 }
 
 .link.-dark,
@@ -5108,8 +5118,8 @@ html {
 }
 
 .link.-dark:hover {
-  color: #785540;
-  border-color: #785540;
+  color: #fe9b12;
+  border-color: #fe9b12;
 }
 
 .link.-white {
@@ -5209,7 +5219,7 @@ a {
 }
 
 a:hover {
-  color: #785540;
+  color: #fe9b12;
 }
 
 a,
@@ -5230,7 +5240,7 @@ button {
 }
 
 .js-section-anchor.section-active {
-  color: #785540 !important;
+  color: #fe9b12 !important;
 }
 
 * {
@@ -5256,7 +5266,7 @@ button {
   transition-property: all;
   display: inline-block;
   border-width: 2px;
-  color: #785540;
+  color: #fe9b12;
   font-size: 0.875rem;
   text-align: center;
   font-family: Graphik--web;
@@ -5266,11 +5276,11 @@ button {
 
 .btn,
 .btn:hover {
-  border-color: #785540;
+  border-color: #fe9b12;
 }
 
 .btn:hover {
-  background-color: #785540;
+  background-color: #fe9b12;
   color: #fff;
   cursor: pointer;
 }
@@ -5287,8 +5297,8 @@ button {
 }
 
 .btn.-solid {
-  background-color: #785540;
-  border-color: #785540;
+  background-color: #fe9b12;
+  border-color: #fe9b12;
   color: #fff;
 }
 
@@ -5342,8 +5352,8 @@ button {
 }
 
 .btn.-darksolid:hover {
-  border-color: #785540;
-  background-color: #785540;
+  border-color: #fe9b12;
+  background-color: #fe9b12;
   color: #fff;
 }
 
@@ -5354,7 +5364,7 @@ button {
 .btn.-disabled:hover {
   opacity: 0.4;
   background-color: inherit;
-  color: #785540;
+  color: #fe9b12;
   cursor: default;
 }
 
@@ -5413,7 +5423,7 @@ button {
 }
 
 .btn--toggle span {
-  background-color: #785540;
+  background-color: #fe9b12;
   display: block;
   position: absolute;
   width: 100%;
@@ -5504,9 +5514,6 @@ button {
 
 .image .background,
 .image img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden;
@@ -5526,9 +5533,6 @@ button {
   overflow: visible;
 }
 
-.image.-is1x1 {
-  padding-top: 100%;
-}
 
 .image.-is12x16 {
   padding-top: 130.25%;
@@ -5830,7 +5834,7 @@ body.overflow-hidden {
 .modal__box {
   width: 100%;
   height: 100%;
-  background-color: #4a2c19;
+  background-color: #fe9b12;
   overflow: auto;
   z-index: 700;
 }
@@ -5846,7 +5850,7 @@ body.overflow-hidden {
 }
 
 .modal__close:hover {
-  color: #785540;
+  color: #fe9b12;
 }
 
 [type="range"] {
@@ -5871,17 +5875,17 @@ body.overflow-hidden {
   border: none;
   width: 100%;
   height: 0.5rem;
-  background-color: #785540;
+  background-color: #fe9b12;
   cursor: pointer;
   background: -webkit-gradient(
       linear,
       left top,
       left bottom,
-      from(#785540),
-      to(#785540)
+      from(#fe9b12),
+      to(#fe9b12)
     )
     0 / var(--sx) 100% no-repeat #f1ece4;
-  background: linear-gradient(#785540, #785540) 0 / var(--sx) 100% no-repeat
+  background: linear-gradient(#fe9b12, #fe9b12) 0 / var(--sx) 100% no-repeat
     #f1ece4;
 }
 
@@ -5890,9 +5894,9 @@ body.overflow-hidden {
   border: none;
   width: 100%;
   height: 0.5rem;
-  background-color: #785540;
+  background-color: #fe9b12;
   cursor: pointer;
-  background: linear-gradient(#785540, #785540) 0 / var(--sx) 100% no-repeat
+  background: linear-gradient(#fe9b12, #fe9b12) 0 / var(--sx) 100% no-repeat
     #f1ece4;
 }
 
@@ -5901,21 +5905,21 @@ body.overflow-hidden {
   border: none;
   width: 100%;
   height: 0.5rem;
-  background-color: #785540;
+  background-color: #fe9b12;
   cursor: pointer;
-  background: linear-gradient(#785540, #785540) 0 / var(--sx) 100% no-repeat
+  background: linear-gradient(#fe9b12, #fe9b12) 0 / var(--sx) 100% no-repeat
     #f1ece4;
 }
 
 [type="range"]::-moz-range-progress {
   height: 0.5rem;
-  background: #785540;
+  background: #fe9b12;
   cursor: pointer;
 }
 
 [type="range"]::-ms-fill-lower {
   height: 0.5rem;
-  background: #785540;
+  background: #fe9b12;
   cursor: pointer;
 }
 
@@ -5989,13 +5993,13 @@ body.overflow-hidden {
 .control:hover input:not([disabled]):checked ~ .control__indicator,
 .control:hover input:not([disabled]) ~ .control__indicator,
 .control input:focus ~ .control__indicator {
-  border-color: #785540;
+  border-color: #fe9b12;
 }
 
 .control input:checked:focus ~ .control__indicator,
 .control input:checked ~ .control__indicator {
-  border-color: #785540;
-  background-color: #785540;
+  border-color: #fe9b12;
+  background-color: #fe9b12;
 }
 
 .control input:disabled ~ .control__indicator {
@@ -6452,7 +6456,7 @@ body.overflow-hidden {
   font-weight: 500;
   margin-right: 3.75px;
   margin-bottom: 3.75px;
-  background-color: #785540;
+  background-color: #fe9b12;
   border: 1px solid #43b76f;
   color: #fff;
   word-break: break-all;
@@ -6495,7 +6499,7 @@ body.overflow-hidden {
 }
 
 .is-open .choices__list--dropdown {
-  border-color: #785540;
+  border-color: #fe9b12;
 }
 
 .is-flipped .choices__list--dropdown {
@@ -6659,7 +6663,7 @@ body.overflow-hidden {
 
 .choices.is-open .choices__inner,
 .choices.is-open .choices__list--dropdown {
-  border-color: #785540;
+  border-color: #fe9b12;
 }
 
 @media (min-width: 576px) {
@@ -6732,7 +6736,7 @@ body.calendly-body-override {
 
 .page-menu .link:hover,
 .page-menu .section-active {
-  color: #785540;
+  color: #fe9b12;
 }
 
 @media (min-width: 768px) {
@@ -6833,7 +6837,7 @@ body.calendly-body-override {
 }
 
 .search-form .search:focus {
-  color: #785540;
+  color: #fe9b12;
   border-color: #4a2c19;
 }
 
@@ -6846,7 +6850,7 @@ body.calendly-body-override {
 }
 
 .search-form .submit:hover {
-  color: #785540;
+  color: #fe9b12;
 }
 
 body {
@@ -6864,7 +6868,7 @@ body {
 
 .site-header .logo,
 .site-header .logo-icon {
-  color: #785540;
+  color: #fe9b12;
 }
 
 .site-header .logo-icon:hover,
@@ -6911,7 +6915,7 @@ body {
 }
 
 .site-header .menu-bar__link.-highlight {
-  border-color: #785540;
+  border-color: #fe9b12;
 }
 
 .site-header .menu-bar__link.-highlight:hover {
@@ -6960,7 +6964,7 @@ body {
   z-index: 10;
   height: 100%;
   width: 80%;
-  background-color: #785540;
+  background-color: #fe9b12;
   padding: 4.5rem;
 }
 
@@ -7273,7 +7277,7 @@ body {
 }
 
 .flip-card.-feature .flip-card__content:before {
-  border-color: #785540;
+  border-color: #fe9b12;
 }
 
 .flip-card.-feature .flip-card__action {
@@ -7296,7 +7300,7 @@ body {
 
 .flip-card.-feature .givewell-logo,
 .flip-card.-feature .icon {
-  color: #785540;
+  color: #fe9b12;
 }
 
 .flip-card.-feature .paragraphs p,
@@ -7704,7 +7708,7 @@ body {
 
   .bg-green-darkest .highlight-card .header-md,
   .bg-green-darkest .highlight-card__header {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .bg-green-darkest .highlight-card:hover {
@@ -7720,7 +7724,7 @@ body {
   }
 
   .bg-green-darkest .highlight-card:hover .highlight-card__icon {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .bg-green-darkest .highlight-card.-white {
@@ -7757,7 +7761,7 @@ body {
 .stat-card {
   padding: 3.75rem 2rem;
   margin-bottom: 0.75rem;
-  background-color: #785540;
+  background-color: #fe9b12;
   color: #fff;
   -webkit-transition-property: all;
   transition-property: all;
@@ -7772,7 +7776,7 @@ body {
 }
 
 .stat-card:hover {
-  background-color: #785540;
+  background-color: #fe9b12;
 }
 
 @media (min-width: 768px) {
@@ -7807,7 +7811,7 @@ body {
   }
 
   .stat-card.-active {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .stat-card.-active .stat-card__descr {
@@ -8061,7 +8065,7 @@ body {
   transition-timing-function: ease;
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
-  color: #785540;
+  color: #fe9b12;
   padding-left: 2rem;
   padding-right: 2rem;
 }
@@ -8260,13 +8264,13 @@ body {
 
 .account-summary .daf-contributions__desktop,
 .account-summary .grants__desktop {
-  border-top: 2px solid #785540;
+  border-top: 2px solid #fe9b12;
   border-bottom: 1px dashed #4a2c19;
 }
 
 .account-summary .daf-contributions,
 .account-summary .grants {
-  border: 1px solid #785540;
+  border: 1px solid #fe9b12;
 }
 
 .account-summary .daf-contributions__mobile,
@@ -8297,7 +8301,7 @@ body {
 }
 
 .account-summary .-green {
-  color: #785540;
+  color: #fe9b12;
 }
 
 @media (min-width: 768px) {
@@ -8354,7 +8358,7 @@ body {
 
 .modal.-profile blockquote {
   font-family: Chap--web;
-  color: #785540;
+  color: #fe9b12;
   font-size: 1.125rem;
   position: relative;
   margin-top: 2rem;
@@ -8368,7 +8372,7 @@ body {
   height: 100%;
   margin-left: -2rem;
   border-left-width: 8px;
-  border-color: #785540;
+  border-color: #fe9b12;
 }
 
 .modal.-profile .definition-list {
@@ -8501,7 +8505,7 @@ body {
 }
 
 .slider-reset .tns-nav-active:after {
-  background-color: #785540;
+  background-color: #fe9b12;
 }
 
 .slider-reset .icon--arrow {
@@ -8546,7 +8550,7 @@ body {
 }
 
 .slider-controls [data-controls]:hover {
-  color: #785540;
+  color: #fe9b12;
 }
 
 .slider-controls.-light [data-controls] {
@@ -8558,7 +8562,7 @@ body {
 }
 
 .slider-controls.-green-box [data-controls] {
-  background-color: #785540;
+  background-color: #fe9b12;
   color: #fff;
   padding: 0.75rem;
 }
@@ -8653,7 +8657,7 @@ body {
 
 .profile-slider.-hero .slider-controls {
   position: relative;
-  background-color: #785540;
+  background-color: #fe9b12;
   color: #fff;
   width: 8rem;
   float: left;
@@ -8999,8 +9003,18 @@ body {
 }
 
 .media-article__main {
-  padding-bottom: 1rem;
+  padding-bottom: 0 !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+.media-article__header{
+    padding-top: 0 !important;
+}
+.media-article{
+    padding: 100px 0;
+}
+
 
 .media-article__aside {
   position: relative;
@@ -9052,7 +9066,7 @@ body {
 @media (min-width: 768px) {
   .media-article {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
   }
 
   .media-article__main {
@@ -9141,7 +9155,7 @@ body {
 
   .media-article.-illustration .media-article__aside {
     width: 44%;
-    padding-top: 130px;
+    /*padding-top: 130px;*/
   }
 
   .media-article.-illustration .media-article__main {
@@ -9306,7 +9320,7 @@ body {
 
 .article-copy h5 {
   font-size: 0.75rem;
-  color: #785540;
+  color: #fe9b12;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0.0362rem;
@@ -9457,7 +9471,7 @@ body {
 }
 
 .menu-list a:hover {
-  color: #785540;
+  color: #fe9b12;
 }
 
 .social-list li {
@@ -9474,7 +9488,7 @@ body {
 }
 
 .social-list a:hover {
-  color: #785540;
+  color: #fe9b12;
 }
 
 .social-list.-flush-l li:first-child {
@@ -9520,8 +9534,8 @@ body {
 }
 
 .resource__item .link:hover {
-  color: #785540;
-  border-color: #785540;
+  color: #fe9b12;
+  border-color: #fe9b12;
 }
 
 .resource__aside {
@@ -9747,7 +9761,7 @@ body {
 }
 
 .status-list .border-green .current-status {
-  color: #785540;
+  color: #fe9b12;
 }
 
 @media (min-width: 768px) {
@@ -9826,7 +9840,7 @@ body {
 
 .signup-form .email:focus,
 .signup-form .email:target {
-  border-color: #785540;
+  border-color: #fe9b12;
 }
 
 .signup-form .email:focus::-webkit-input-placeholder,
@@ -9867,7 +9881,7 @@ body {
 }
 
 .signup-form .submit:hover {
-  color: #785540;
+  color: #fe9b12;
 }
 
 .signup-form .submit .submit-icon {
@@ -9962,7 +9976,7 @@ body {
 .standard-form-base input[type="tel"]:focus,
 .standard-form-base input[type="text"]:focus,
 .standard-form-base textarea:focus {
-  border-color: #785540;
+  border-color: #fe9b12;
 }
 
 .standard-form-base input[type="number"]::-webkit-inner-spin-button,
@@ -10432,7 +10446,7 @@ body {
 
 .show-member blockquote {
   font-family: Chap--web;
-  color: #785540;
+  color: #fe9b12;
   font-size: 1.125rem;
   position: relative;
   margin-top: 2rem;
@@ -10446,7 +10460,7 @@ body {
   height: 100%;
   margin-left: -2rem;
   border-left-width: 8px;
-  border-color: #785540;
+  border-color: #fe9b12;
 }
 
 @media (min-width: 576px) {
@@ -10599,7 +10613,7 @@ body {
 }
 
 .site-footer__logo:hover {
-  color: #785540;
+  color: #fe9b12;
 }
 
 .site-footer__header {
@@ -10882,7 +10896,7 @@ body {
   }
 
   .xs\:bg-green {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .xs\:bg-green-light {
@@ -10962,7 +10976,7 @@ body {
   }
 
   .xs\:hover\:bg-green:hover {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .xs\:hover\:bg-green-light:hover {
@@ -11042,7 +11056,7 @@ body {
   }
 
   .xs\:focus\:bg-green:focus {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .xs\:focus\:bg-green-light:focus {
@@ -11194,7 +11208,7 @@ body {
   }
 
   .xs\:border-green {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .xs\:border-green-light {
@@ -11274,7 +11288,7 @@ body {
   }
 
   .xs\:hover\:border-green:hover {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .xs\:hover\:border-green-light:hover {
@@ -11354,7 +11368,7 @@ body {
   }
 
   .xs\:focus\:border-green:focus {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .xs\:focus\:border-green-light:focus {
@@ -14054,7 +14068,7 @@ body {
   }
 
   .xs\:placeholder-green::placeholder {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .xs\:placeholder-green-light::placeholder {
@@ -14134,7 +14148,7 @@ body {
   }
 
   .xs\:focus\:placeholder-green:focus::placeholder {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .xs\:focus\:placeholder-green-light:focus::placeholder {
@@ -14424,11 +14438,11 @@ body {
   }
 
   .xs\:text-green {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .xs\:text-green-light {
-    color: #a8826b;
+    color: #000;
   }
 
   .xs\:text-green-light-accessible {
@@ -14504,7 +14518,7 @@ body {
   }
 
   .xs\:hover\:text-green:hover {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .xs\:hover\:text-green-light:hover {
@@ -14584,7 +14598,7 @@ body {
   }
 
   .xs\:focus\:text-green:focus {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .xs\:focus\:text-green-light:focus {
@@ -15097,7 +15111,7 @@ body {
   }
 
   .sm\:bg-green {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .sm\:bg-green-light {
@@ -15177,7 +15191,7 @@ body {
   }
 
   .sm\:hover\:bg-green:hover {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .sm\:hover\:bg-green-light:hover {
@@ -15257,7 +15271,7 @@ body {
   }
 
   .sm\:focus\:bg-green:focus {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .sm\:focus\:bg-green-light:focus {
@@ -15409,7 +15423,7 @@ body {
   }
 
   .sm\:border-green {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .sm\:border-green-light {
@@ -15489,7 +15503,7 @@ body {
   }
 
   .sm\:hover\:border-green:hover {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .sm\:hover\:border-green-light:hover {
@@ -15569,7 +15583,7 @@ body {
   }
 
   .sm\:focus\:border-green:focus {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .sm\:focus\:border-green-light:focus {
@@ -18269,7 +18283,7 @@ body {
   }
 
   .sm\:placeholder-green::placeholder {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .sm\:placeholder-green-light::placeholder {
@@ -18349,7 +18363,7 @@ body {
   }
 
   .sm\:focus\:placeholder-green:focus::placeholder {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .sm\:focus\:placeholder-green-light:focus::placeholder {
@@ -18639,7 +18653,7 @@ body {
   }
 
   .sm\:text-green {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .sm\:text-green-light {
@@ -18719,7 +18733,7 @@ body {
   }
 
   .sm\:hover\:text-green:hover {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .sm\:hover\:text-green-light:hover {
@@ -18799,7 +18813,7 @@ body {
   }
 
   .sm\:focus\:text-green:focus {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .sm\:focus\:text-green-light:focus {
@@ -19312,7 +19326,7 @@ body {
   }
 
   .md\:bg-green {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .md\:bg-green-light {
@@ -19392,7 +19406,7 @@ body {
   }
 
   .md\:hover\:bg-green:hover {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .md\:hover\:bg-green-light:hover {
@@ -19472,7 +19486,7 @@ body {
   }
 
   .md\:focus\:bg-green:focus {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .md\:focus\:bg-green-light:focus {
@@ -19624,7 +19638,7 @@ body {
   }
 
   .md\:border-green {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .md\:border-green-light {
@@ -19704,7 +19718,7 @@ body {
   }
 
   .md\:hover\:border-green:hover {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .md\:hover\:border-green-light:hover {
@@ -19784,7 +19798,7 @@ body {
   }
 
   .md\:focus\:border-green:focus {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .md\:focus\:border-green-light:focus {
@@ -22484,7 +22498,7 @@ body {
   }
 
   .md\:placeholder-green::placeholder {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .md\:placeholder-green-light::placeholder {
@@ -22564,7 +22578,7 @@ body {
   }
 
   .md\:focus\:placeholder-green:focus::placeholder {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .md\:focus\:placeholder-green-light:focus::placeholder {
@@ -22854,7 +22868,7 @@ body {
   }
 
   .md\:text-green {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .md\:text-green-light {
@@ -22934,7 +22948,7 @@ body {
   }
 
   .md\:hover\:text-green:hover {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .md\:hover\:text-green-light:hover {
@@ -23014,7 +23028,7 @@ body {
   }
 
   .md\:focus\:text-green:focus {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .md\:focus\:text-green-light:focus {
@@ -23527,7 +23541,7 @@ body {
   }
 
   .lg\:bg-green {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .lg\:bg-green-light {
@@ -23607,7 +23621,7 @@ body {
   }
 
   .lg\:hover\:bg-green:hover {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .lg\:hover\:bg-green-light:hover {
@@ -23687,7 +23701,7 @@ body {
   }
 
   .lg\:focus\:bg-green:focus {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .lg\:focus\:bg-green-light:focus {
@@ -23839,7 +23853,7 @@ body {
   }
 
   .lg\:border-green {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .lg\:border-green-light {
@@ -23919,7 +23933,7 @@ body {
   }
 
   .lg\:hover\:border-green:hover {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .lg\:hover\:border-green-light:hover {
@@ -23999,7 +24013,7 @@ body {
   }
 
   .lg\:focus\:border-green:focus {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .lg\:focus\:border-green-light:focus {
@@ -26699,7 +26713,7 @@ body {
   }
 
   .lg\:placeholder-green::placeholder {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .lg\:placeholder-green-light::placeholder {
@@ -26779,7 +26793,7 @@ body {
   }
 
   .lg\:focus\:placeholder-green:focus::placeholder {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .lg\:focus\:placeholder-green-light:focus::placeholder {
@@ -27069,7 +27083,7 @@ body {
   }
 
   .lg\:text-green {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .lg\:text-green-light {
@@ -27149,7 +27163,7 @@ body {
   }
 
   .lg\:hover\:text-green:hover {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .lg\:hover\:text-green-light:hover {
@@ -27229,7 +27243,7 @@ body {
   }
 
   .lg\:focus\:text-green:focus {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .lg\:focus\:text-green-light:focus {
@@ -27742,7 +27756,7 @@ body {
   }
 
   .menu\:bg-green {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .menu\:bg-green-light {
@@ -27822,7 +27836,7 @@ body {
   }
 
   .menu\:hover\:bg-green:hover {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .menu\:hover\:bg-green-light:hover {
@@ -27902,7 +27916,7 @@ body {
   }
 
   .menu\:focus\:bg-green:focus {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .menu\:focus\:bg-green-light:focus {
@@ -28054,7 +28068,7 @@ body {
   }
 
   .menu\:border-green {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .menu\:border-green-light {
@@ -28134,7 +28148,7 @@ body {
   }
 
   .menu\:hover\:border-green:hover {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .menu\:hover\:border-green-light:hover {
@@ -28214,7 +28228,7 @@ body {
   }
 
   .menu\:focus\:border-green:focus {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .menu\:focus\:border-green-light:focus {
@@ -30911,7 +30925,7 @@ body {
   }
 
   .menu\:placeholder-green::placeholder {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .menu\:placeholder-green-light::placeholder {
@@ -30991,7 +31005,7 @@ body {
   }
 
   .menu\:focus\:placeholder-green:focus::placeholder {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .menu\:focus\:placeholder-green-light:focus::placeholder {
@@ -31281,7 +31295,7 @@ body {
   }
 
   .menu\:text-green {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .menu\:text-green-light {
@@ -31361,7 +31375,7 @@ body {
   }
 
   .menu\:hover\:text-green:hover {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .menu\:hover\:text-green-light:hover {
@@ -31441,7 +31455,7 @@ body {
   }
 
   .menu\:focus\:text-green:focus {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .menu\:focus\:text-green-light:focus {
@@ -31954,7 +31968,7 @@ body {
   }
 
   .xl\:bg-green {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .xl\:bg-green-light {
@@ -32034,7 +32048,7 @@ body {
   }
 
   .xl\:hover\:bg-green:hover {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .xl\:hover\:bg-green-light:hover {
@@ -32114,7 +32128,7 @@ body {
   }
 
   .xl\:focus\:bg-green:focus {
-    background-color: #785540;
+    background-color: #fe9b12;
   }
 
   .xl\:focus\:bg-green-light:focus {
@@ -32266,7 +32280,7 @@ body {
   }
 
   .xl\:border-green {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .xl\:border-green-light {
@@ -32346,7 +32360,7 @@ body {
   }
 
   .xl\:hover\:border-green:hover {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .xl\:hover\:border-green-light:hover {
@@ -32426,7 +32440,7 @@ body {
   }
 
   .xl\:focus\:border-green:focus {
-    border-color: #785540;
+    border-color: #fe9b12;
   }
 
   .xl\:focus\:border-green-light:focus {
@@ -35126,7 +35140,7 @@ body {
   }
 
   .xl\:placeholder-green::placeholder {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .xl\:placeholder-green-light::placeholder {
@@ -35206,7 +35220,7 @@ body {
   }
 
   .xl\:focus\:placeholder-green:focus::placeholder {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .xl\:focus\:placeholder-green-light:focus::placeholder {
@@ -35496,7 +35510,7 @@ body {
   }
 
   .xl\:text-green {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .xl\:text-green-light {
@@ -35576,7 +35590,7 @@ body {
   }
 
   .xl\:hover\:text-green:hover {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .xl\:hover\:text-green-light:hover {
@@ -35656,7 +35670,7 @@ body {
   }
 
   .xl\:focus\:text-green:focus {
-    color: #785540;
+    color: #fe9b12;
   }
 
   .xl\:focus\:text-green-light:focus {
