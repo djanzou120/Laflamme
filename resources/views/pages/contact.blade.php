@@ -7,7 +7,7 @@
         <header class="section-header | -top">
             <div class="section-header__content">
                 <h2 class="header | header-lg">
-                    <p>Rejoindre Elat Bobenyañ <span class=""></span></p>
+                    <p>Rejoindre La Flamme de l'Espoir <span class=""></span></p>
                 </h2>
             </div>
         </header>
@@ -22,7 +22,7 @@
                     <smooth_scroll class="link" :anchor="'#who'" :offset="120">Nous rejoindre</smooth_scroll>
                 </li>
                 <li class="page-menu__item">
-                    <smooth_scroll class="link" :anchor="'#pledge'" :offset="120">Contacter Elat Bobenyañ</smooth_scroll>
+                    <smooth_scroll class="link" :anchor="'#pledge'" :offset="120">Contacter La Flamme de l'Espoir</smooth_scroll>
                 </li>
             </ul>
         </nav>

@@ -12,6 +12,44 @@
   }
 }
 
+body{
+    font-family: Chap--web;
+}
+
+/*DIRECTOR*/
+.director{
+    display: flex;
+    width: 100%;
+}
+.img-profile{
+    width: 40%;
+}
+h1{
+    font-size: 2em !important;
+}
+h3{
+    font-size: 1.17em;
+}
+.content-description{
+    padding: 0 40px;
+}
+.description-poste{
+    margin-top: 10px;
+}
+.poste{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 28px;
+}
+.name{
+    font-weight: bold;
+    font-size: 45px !important;
+}
+/* FIN DIRECTOR*/
+
+.social-profile{
+    margin-top: 20px;
+}
 .logoElat {
   background: url(../media/svg/logo.svg) repeat;
   height: 7rem;
@@ -136,25 +174,25 @@ a,.menu-bar__link:after{
 }
 
 /*  */
-.meberan::after {
-  content: " Meberan";
-  opacity: 0;
-  position: relative;
-  right: 10px;
-  top: 20px;
-  -webkit-transition: all 1s !important ;
-  transition: all 1s !important;
-}
+/*.meberan::after {*/
+/*  content: " Meberan";*/
+/*  opacity: 0;*/
+/*  position: relative;*/
+/*  right: 10px;*/
+/*  top: 20px;*/
+/*  -webkit-transition: all 1s !important ;*/
+/*  transition: all 1s !important;*/
+/*}*/
 
-.meberan:hover::after {
-  content: " Meberan";
-  opacity: 0.5;
-  right: 20px;
-  -webkit-transition: all 1s !important;
-  transition: all 1s !important;
-}
+/*.meberan:hover::after {*/
+/*  content: " Meberan";*/
+/*  opacity: 0.5;*/
+/*  right: 20px;*/
+/*  -webkit-transition: all 1s !important;*/
+/*  transition: all 1s !important;*/
+/*}*/
 /*  */
-.abaa::after {
+/*.abaa::after {
   content: " Abaa";
   opacity: 0;
   position: relative;
@@ -170,7 +208,7 @@ a,.menu-bar__link:after{
   right: 20px;
   -webkit-transition: all 1s !important;
   transition: all 1s !important;
-}
+}*/
 /*  */
 /*  */
 .minlan::after {
@@ -202,13 +240,13 @@ a,.menu-bar__link:after{
   transition: all 1s !important;
 }
 
-.apropos:hover::after {
-  content: "Mefuèñ"; /* mefe */
-  opacity: 0.5;
-  right: 20px;
-  -webkit-transition: all 1s !important;
-  transition: all 1s !important;
-}
+/*.apropos:hover::after {*/
+/*  content: "Mefuèñ"; !* mefe *!*/
+/*  opacity: 0.5;*/
+/*  right: 20px;*/
+/*  -webkit-transition: all 1s !important;*/
+/*  transition: all 1s !important;*/
+/*}*/
 /*  */
 /*  */
 .medres::after {
@@ -393,3 +431,11 @@ a,.menu-bar__link:after{
     text-transform: capitalize;
     font-weight: normal;
 }
+
+
+/*
+ */
+section#impact {
+    padding-bottom: 0;
+}
+/*FIN SLIDER*/

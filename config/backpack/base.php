@@ -71,7 +71,7 @@ return [
     // ------
 
     // Menu logo. You can replace this with an <img> tag if you have a logo.
-    'project_logo'   => '<b>Elat</b> Bobenyañ',
+    'project_logo'   => '<b>La Flamme </b> de l\'Espoir',
 
     // Show / hide breadcrumbs on admin panel pages.
     'breadcrumbs' => true,

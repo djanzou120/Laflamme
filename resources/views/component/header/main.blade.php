@@ -17,18 +17,19 @@
                     <a role="menuitem" aria-haspopup="false" href="/" class="menu-bar__link meberan"
                        tabindex="0">Accueil</a>
                 </li>
+                <li class="menu-bar__item">
+                    <a role="menuitem" aria-haspopup="false" href="{{route('blog')}}" class="menu-bar__link abaa"
+                       tabindex="0">Blog</a>
+                </li>
 
                 <li class="menu-bar__item">
                     <a role="menuitem" aria-haspopup="false" href="{{route('about')}}" class="menu-bar__link apropos"
-                       tabindex="0">About Us</a>
+                       tabindex="0">A propos</a>
                 </li>
-                <li class="menu-bar__item">
-                    <a role="menuitem" aria-haspopup="false" href="{{route('blog')}}" class="menu-bar__link abaa"
-                       tabindex="0">Showcase</a>
-                </li>
+
                 <li class="menu-bar__item">
                     <a role="menuitem" aria-haspopup="false" href="{{route('contact')}}" class="menu-bar__link medres"
-                       tabindex="0">Contact Us</a>
+                       tabindex="0">Contact</a>
                 </li>
 {{--                @auth()--}}
 {{--                    <li class="menu-bar__item">--}}
