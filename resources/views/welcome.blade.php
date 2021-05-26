@@ -32,15 +32,14 @@ Content Types:
                     <h2 class="header">Bienvenue
                     </h2>
 
-                    <h4 class="subheader | header-sm | pb-5">Association de l’élite de la vallée du ntem</h4>
+                    <h4 class="subheader | header-sm | pb-5">La FLAMME DE L’ESPOIR,</h4>
 
                 </header>
 
                 <article class="media-article__article | paragraphs">
-                    <p>Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
-                        tempora
-                        incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,
-                        quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut ali </p>
+                    <p>
+                        Présidée par Samba Saphir, est une association à but non lucratif ayant pour but d’aider la femme, la jeune fille-mère et les enfants, vise entre autres à assurer l’épanouissement de l’Homme, la promotion des échanges culturels tant au niveau national qu’international, l’accès aux infrastructures de base au niveau sanitaire et alimentaire.
+                    </p>
                 </article>
             </div>
 
@@ -67,88 +66,12 @@ Content Types:
         <!-- Section Header -->
         <header class="section-header | ">
             <div class="section-header__content">
-                <h4 class="header-sm">
-                    <p>Pourquoi La Flamme de l'espoir ?</p>
-                </h4>
-
                 <h2 class="header | header-lg">
-                    <p>Cela commence par l'idee d'un regroupement <br>mais c'est bien plus. <span class=""></span></p>
+                    <p>Aimer c’est bien, aider c’est encore mieux.<span class=""></span></p>
                 </h2>
-
-                <div class="section-header__descr  | paragraphs">
-                    <p>Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
-                        tempora
-                        incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                </div>
-
             </div>
         </header>
 
-
-        <!-- Highlight Cards -->
-        <div class="highlight-cards | md:flex-grid container lg:gutter | md:pb-0 pb-4">
-            <div class="highlight-card">
-                <div class="highlight-card__content">
-                    <div class="highlight-card__icon | text-green">
-                <span class="icon | icon--arrow -lg">
-                  <img src="{{asset('assets/asset_19.svg')}}"  class="tortoise">
-                </span>
-                    </div>
-
-                    <div class="highlight-card__main">
-                        <h4 class="header-md">Vision</h4>
-                        <div class="paragraphs -xs">
-                            <p>
-                            <p>Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                                modi
-                                tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="highlight-card">
-                <div class="highlight-card__content">
-                    <div class="highlight-card__icon | text-green">
-                <span class="icon | icon--arrow -lg">
-                  <img src="{{asset('assets/asset_17.svg')}}"/>
-                </span>
-                    </div>
-
-                    <div class="highlight-card__main">
-                        <h4 class="header-md">Objectifs</h4>
-                        <div class="paragraphs -xs">
-                            <p>
-                            <p>Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                                modi
-                                tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem..</p>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="highlight-card">
-                <div class="highlight-card__content">
-                    <div class="highlight-card__icon | text-green">
-                <span class="icon | icon--arrow -lg">
-                  <img src="{{asset('assets/asset_18.svg')}}"  style="transform:rotate(90)">
-                </span>
-                    </div>
-
-                    <div class="highlight-card__main">
-                        <h4 class="header-md">Réalisations</h4>
-                        <div class="paragraphs -xs">
-                            <p>
-                            <p>Dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                                modi
-                                tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
     </section>
 
     <!-- Why Now? -->
@@ -172,6 +95,21 @@ Content Types:
                                     class="fit-cover" alt="" />
                             </figure>
                         </div>
+
+                        <!-- Main -->
+                        <div class="profile-slider__main">
+                            <a href="stories/alex-depledge-never-thought-i-would-exit.html">
+                                <div class="profile-slider__card | bg-green-darkest text-white">
+                                    <h3 class="header-md | text-green-light mb-1">Alex Depledge</h3>
+                                    <h3 class="header-sm -light | mb-4">Founder, Hassle.com</h3>
+
+                                    <div class="paragraphs">
+                                        <p>"Hand on heart, I had never thought about exiting Hassle.com... So when I did, I actually
+                                            found it quite traumatic. Founders Pledge was a balm to that. A strange kind of therapy."</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="profile-slider__slide">
@@ -186,6 +124,20 @@ Content Types:
                             </figure>
                         </div>
 
+                        <!-- Main -->
+                        <div class="profile-slider__main">
+                            <a href="stories/alex-depledge-never-thought-i-would-exit.html">
+                                <div class="profile-slider__card | bg-green-darkest text-white">
+                                    <h3 class="header-md | text-green-light mb-1">Alex Depledge</h3>
+                                    <h3 class="header-sm -light | mb-4">Founder, Hassle.com</h3>
+
+                                    <div class="paragraphs">
+                                        <p>"Hand on heart, I had never thought about exiting Hassle.com... So when I did, I actually
+                                            found it quite traumatic. Founders Pledge was a balm to that. A strange kind of therapy."</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="profile-slider__slide">
@@ -198,6 +150,21 @@ Content Types:
                                     data-src="{{asset('assets/IMG_6997.JPG')}}"
                                     class="fit-cover" alt="" />
                             </figure>
+                        </div>
+
+                        <!-- Main -->
+                        <div class="profile-slider__main">
+                            <a href="stories/alex-depledge-never-thought-i-would-exit.html">
+                                <div class="profile-slider__card | bg-green-darkest text-white">
+                                    <h3 class="header-md | text-green-light mb-1">Alex Depledge</h3>
+                                    <h3 class="header-sm -light | mb-4">Founder, Hassle.com</h3>
+
+                                    <div class="paragraphs">
+                                        <p>"Hand on heart, I had never thought about exiting Hassle.com... So when I did, I actually
+                                            found it quite traumatic. Founders Pledge was a balm to that. A strange kind of therapy."</p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -212,6 +179,21 @@ Content Types:
                                     class="fit-cover" alt="" />
                             </figure>
                         </div>
+
+                        <!-- Main -->
+                        <div class="profile-slider__main">
+                            <a href="stories/alex-depledge-never-thought-i-would-exit.html">
+                                <div class="profile-slider__card | bg-green-darkest text-white">
+                                    <h3 class="header-md | text-green-light mb-1">Alex Depledge</h3>
+                                    <h3 class="header-sm -light | mb-4">Founder, Hassle.com</h3>
+
+                                    <div class="paragraphs">
+                                        <p>"Hand on heart, I had never thought about exiting Hassle.com... So when I did, I actually
+                                            found it quite traumatic. Founders Pledge was a balm to that. A strange kind of therapy."</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div class="profile-slider__slide">
@@ -224,6 +206,21 @@ Content Types:
                                     data-src="{{asset('assets/IMG_7026.JPG')}}"
                                     class="fit-cover" alt="" />
                             </figure>
+                        </div>
+
+                        <!-- Main -->
+                        <div class="profile-slider__main">
+                            <a href="stories/alex-depledge-never-thought-i-would-exit.html">
+                                <div class="profile-slider__card | bg-green-darkest text-white">
+                                    <h3 class="header-md | text-green-light mb-1">Alex Depledge</h3>
+                                    <h3 class="header-sm -light | mb-4">Founder, Hassle.com</h3>
+
+                                    <div class="paragraphs">
+                                        <p>"Hand on heart, I had never thought about exiting Hassle.com... So when I did, I actually
+                                            found it quite traumatic. Founders Pledge was a balm to that. A strange kind of therapy."</p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -239,7 +236,7 @@ Content Types:
         <header class="section-header -basic mt-5 pt-5 ">
             <div class="section-header__content mt-5 pt-5">
                 <div class="section-header__name">
-                    <h2 class="header | header-lg">Membres du Bureau</h2>
+                    <h2 class="header | header-lg">Mot de la Fondatrice</h2>
                 </div>
             </div>
         </header>
@@ -248,13 +245,27 @@ Content Types:
         <div class="director">
             <div class="col- img-profile">
                 <div>
-                    <img src="https://dwv100zweqd2m.cloudfront.net/uploads/user/avatar/26/Jose_Neves_Avatar_good.jpg" alt="">
+                    <img src="{{asset('assets/samba.jpeg')}}" alt="">
                 </div>
             </div>
             <div class="col-6 content-description">
-                <h1 class="name">name</h1>
-                <h3 class="poste">Poste</h3>
-                <p class="description-poste">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum nihil repudiandae veritatis! Aperiam corporis deserunt doloremque, eius, esse expedita fuga laboriosam modi mollitia, nisi quos rem repellat sapiente veritatis voluptates.</p>
+                <h1 class="name">SAMBA Saphir</h1>
+{{--                <h3 class="poste">Fondatrice</h3>--}}
+                <p class="description-poste">
+                    Native du département Nyong et Mfoumou et d’Emini, je suis amoureuse d’Akonolinga La Belle, la ville ayant pour mascotte, le poisson appelé « Kanga » ; c’est un poisson qui n’est pêché que dans le « Nyong ».
+                </p>
+                <p class="description-poste">
+                    Après mon baccalauréat, j’ai décidé de poursuivre mes études à l’étranger, où je réside pour l’instant. Après un cycle de chimie, j’ai décidé de compléter mon cursus universitaire avec un cycle dans le domaine du Développement Durable, un crochet dans le domaine HQSE et je termine aujourd’hui, des études de Responsable de Projets.
+                </p>
+                <p class="description-poste">
+                    Comme la plupart des écrivains, je suis une férue de lecture ; je lis depuis mon enfance. J’ai commencé à écrire à l’âge de 12 ans, par un journal intime. J’ai dû y faire une pause pour me consacrer à mes études et ai repris des décennies plus tard.
+                </p>
+                <p class="description-poste">
+                    En plus de mes études et autres activités, j’ai un goût prononcé pour tout ce qui a trait à l’Humanitaire, raison pour laquelle, je suis présidente d’une association à but non lucratif, travaille en partenariat avec une association basée à Ayos au Cameroun et administratrice d’une autre association en France.
+                </p>
+                <p class="description-poste">
+                    En tant que personne, l’on me dit assez simple, méfiante, réservée et loyale.
+                </p>
                 <ul class="social-list social-profile -flush-l" role="menubar">
 
                     <li>

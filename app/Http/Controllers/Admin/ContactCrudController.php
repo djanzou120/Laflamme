@@ -42,6 +42,7 @@ class ContactCrudController extends CrudController
         CRUD::column('firstname');
         CRUD::column('lastname');
         CRUD::column('contact');
+        CRUD::column('title');
         CRUD::column('message');
         CRUD::column('created_at');
         CRUD::column('updated_at');
@@ -67,6 +68,7 @@ class ContactCrudController extends CrudController
         CRUD::field('firstname');
         CRUD::field('lastname');
         CRUD::field('contact');
+        CRUD::field('title');
         CRUD::field('message');
 
         /**

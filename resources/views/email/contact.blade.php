@@ -1,4 +1,5 @@
 <div>
+    <p>Objectif : {{ $contact->title }}</p>
     <p>Prenom : {{ $contact->firstname }}</p>
     <p>Nom : {{ $contact->lastname }}</p>
     <p>Contact : {{ $contact->contact }}</p>

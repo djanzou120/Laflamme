@@ -25,15 +25,15 @@
             <li class="page-menu__item">
                 <smooth_scroll class="link" :anchor="'#ethos'" :offset="120">Status</smooth_scroll>
             </li>
-            <li class="page-menu__item">
-                <smooth_scroll class="link" :anchor="'#members'" :offset="120">Membres</smooth_scroll>
-            </li>
+{{--            <li class="page-menu__item">--}}
+{{--                <smooth_scroll class="link" :anchor="'#members'" :offset="120">Membres</smooth_scroll>--}}
+{{--            </li>--}}
             <li class="page-menu__item">
                 <smooth_scroll class="link" :anchor="'#impact-journeys'" :offset="120">Gallerie</smooth_scroll>
             </li>
-            <li class="page-menu__item">
-                <smooth_scroll class="link" :anchor="'#join'" :offset="120">Règlements</smooth_scroll>
-            </li>
+{{--            <li class="page-menu__item">--}}
+{{--                <smooth_scroll class="link" :anchor="'#join'" :offset="120">Règlements</smooth_scroll>--}}
+{{--            </li>--}}
         </ul>
     </nav>
 
@@ -63,11 +63,8 @@ Content Types:
                 </header>
 
                 <article class="media-article__article | paragraphs">
-                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-                        dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                        dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
-                        et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                        corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur</p>
+                    <p>Le siège social de l'association est fixé au 7, Rue Marcel 87100, Limoges.
+                        Il pourra être transféré par simple décision du conseil d'administration, la ratification par l'assemblée générale sera nécessaire.</p>
                 </article>
 
 
@@ -87,12 +84,12 @@ Content Types:
             <aside class="media-article__aside">
                 <figure class="image  -is12x16 | md:block hidden">
                     <img
-                        src="https://images.ctfassets.net/x5sq5djrgbwu/M8KrhMWNgPgtOzQOQ17b9/ee54e6a74f9309c86169055adcfbffb2/antenna-502680-unsplash.jpg"
+                        src="{{asset('assets/IMG_7026.jpg')}}"
                         alt="" class="fit-cover" />
                 </figure>
                 <figure class="image -mobile -is2x1 | md:hidden block">
                     <img
-                        src="https://images.ctfassets.net/x5sq5djrgbwu/1xpZdNkmNGR0zdZkjpPCFR/de3fcfdec2dec9e61af021dab17d4186/antenna-502680-unsplash.jpg"
+                        src="{{asset('assets/IMG_7026.jpg')}}"
                         alt="" class="fit-cover" />
                 </figure>
 
@@ -114,7 +111,7 @@ Content Types:
         <!-- Profile Slider -->
         <slider :opt="{
     items: 1,
-    autoplay: false,
+    autoplay: true,
     mode: 'gallery',
     arrowKeys: true
 }" class="profile-slider -hero slider-reset -no-gutters | clearfix">
@@ -125,8 +122,8 @@ Content Types:
                         <div class="profile-slider__aside">
                             <figure class="image -md:is2x1 -is16x9">
                                 <img
-                                    src="https://images.ctfassets.net/x5sq5djrgbwu/3nxTrLnbmp2LIY68hY3Lm5/ae850f9ae3305c4f7104f489ff7fb7b7/SF.jpg"
-                                    data-src="https://images.ctfassets.net/x5sq5djrgbwu/3nxTrLnbmp2LIY68hY3Lm5/ae850f9ae3305c4f7104f489ff7fb7b7/SF.jpg"
+                                    src="{{asset('assets/IMG_7026.jpg')}}"
+                                    data-src="{{asset('assets/IMG_7026.jpg')}}"
                                     class="fit-cover" alt="" />
                             </figure>
                         </div>
@@ -153,8 +150,8 @@ Content Types:
                         <div class="profile-slider__aside">
                             <figure class="image -md:is2x1 -is16x9">
                                 <img
-                                    src="https://images.ctfassets.net/x5sq5djrgbwu/5xO5rHQnFxTxys9tBKCy9x/d9ff04647e1741d736f3366dfcae72ea/alex_depledge_5.png"
-                                    data-src="https://images.ctfassets.net/x5sq5djrgbwu/5xO5rHQnFxTxys9tBKCy9x/d9ff04647e1741d736f3366dfcae72ea/alex_depledge_5.png"
+                                    src="{{asset('assets/IMG_7027.jpg')}}"
+                                    data-src="{{asset('assets/IMG_7027.jpg')}}"
                                     class="fit-cover" alt="" />
                             </figure>
                         </div>
@@ -181,8 +178,8 @@ Content Types:
                         <div class="profile-slider__aside">
                             <figure class="image -md:is2x1 -is16x9">
                                 <img
-                                    src="https://images.ctfassets.net/x5sq5djrgbwu/6fvMKkA74piwSd7pnGeHgF/edb857538b25329d0789fc9b350aedc4/Matt_Hunter_6.jpg"
-                                    data-src="https://images.ctfassets.net/x5sq5djrgbwu/6fvMKkA74piwSd7pnGeHgF/edb857538b25329d0789fc9b350aedc4/Matt_Hunter_6.jpg"
+                                    src="{{asset('assets/IMG_6997.jpg')}}"
+                                    data-src="{{asset('assets/IMG_6997.jpg')}}"
                                     class="fit-cover" alt="" />
                             </figure>
                         </div>
@@ -209,8 +206,8 @@ Content Types:
                         <div class="profile-slider__aside">
                             <figure class="image -md:is2x1 -is16x9">
                                 <img
-                                    src="https://images.ctfassets.net/x5sq5djrgbwu/5QZ8MsKzoXjSyk8JxKDn6J/fbed598113749668d267434f44b8117a/Ben_Medlock_6.jpg"
-                                    data-src="https://images.ctfassets.net/x5sq5djrgbwu/5QZ8MsKzoXjSyk8JxKDn6J/fbed598113749668d267434f44b8117a/Ben_Medlock_6.jpg"
+                                    src="{{asset('assets/IMG_6994.jpg')}}"
+                                    data-src="{{asset('assets/IMG_6994.jpg')}}"
                                     class="fit-cover" alt="" />
                             </figure>
                         </div>
@@ -237,8 +234,8 @@ Content Types:
                         <div class="profile-slider__aside">
                             <figure class="image -md:is2x1 -is16x9">
                                 <img
-                                    src="https://images.ctfassets.net/x5sq5djrgbwu/2XrkwU9snEIeU1qHPVlHCX/b96ff8ed33ad4fb9765243bf4fce2342/Damien_Lane_6.jpg"
-                                    data-src="https://images.ctfassets.net/x5sq5djrgbwu/2XrkwU9snEIeU1qHPVlHCX/b96ff8ed33ad4fb9765243bf4fce2342/Damien_Lane_6.jpg"
+                                    src="{{asset('assets/IMG_6993.jpg')}}"
+                                    data-src="{{asset('assets/IMG_6993.jpg')}}"
                                     class="fit-cover" alt="" />
                             </figure>
                         </div>

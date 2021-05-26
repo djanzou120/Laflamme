@@ -51,6 +51,20 @@
                                                 </div>
                                             </div>
                                             <div class="form-group">
+                                                <div class="field-group group-check">
+                                                    <label class="standard-label group-text" for="don">Faire un don</label>
+                                                    <input type="radio" name="title" id="don" value="Faire un don" required>
+                                                </div>
+                                                <div class="field-group group-check">
+                                                    <label class="standard-label group-text" for="parrain">Parrainer un enfant</label>
+                                                    <input type="radio" name="title" id="parrain" value="Parrainer un enfant">
+                                                </div>
+                                                <div class="field-group group-check">
+                                                    <label class="standard-label group-text" for="member" >Devenir membre</label>
+                                                    <input type="radio" name="title" id="member" value="Devenir membre">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
                                                 <div class="field-group">
                                                     <label class="standard-label" for="message">Message</label>
                                                     <textarea required="required" class="field" type="text" name="message" id="message" ></textarea>

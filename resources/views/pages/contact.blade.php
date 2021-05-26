@@ -44,15 +44,15 @@
             <div class="media-article -article-indent -illustration | container ">
                 <div class="media-article__main | xl:pr-12 md:pb-12">
                     <header class="media-article__header">
-                        <h2 class="header">Nous rejoindre</h2>
+                        <h2 class="header">Prêt à soutenir notre action ?</h2>
                     </header>
 
                     <article class="media-article__article | paragraphs">
-                        <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-                            dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                            dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore
-                            et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                            corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur</p>
+                        <p>
+                            Pour faire partir de l’association, il faut au préalable
+                            envoyer une demande motivée au bureau de l’association, qui la valide après
+                            étude.
+                        </p>
                     </article>
 
                     <div class="media-article__actions | md:mt-6 mt-8">

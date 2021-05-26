@@ -6984,8 +6984,8 @@ body {
 
 .section-header {
   text-align: center;
-  margin-bottom: 2rem;
   padding-top: 3rem;
+padding-bottom: 2.5rem;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -7114,7 +7114,6 @@ body {
 
 @media (min-width: 768px) {
   .section-header {
-    margin-bottom: 2.5rem;
     padding-top: 5.5rem;
   }
 
@@ -8127,12 +8126,12 @@ body {
 }
 
 .link-card.-dark .link-card__content {
-  background-color: #4a2c19;
+  background-color: #fe9b12;
   color: #fff;
 }
 
 .link-card:hover.-dark .link-card__content {
-  background-color: #a8826b;
+  background-color: #fc671f;
   color: #4a2c19;
 }
 

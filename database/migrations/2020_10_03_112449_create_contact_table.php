@@ -18,6 +18,7 @@ class CreateContactTable extends Migration
             $table->string('firstname', 120);
             $table->string('lastname', 120);
             $table->string('contact', 140);
+            $table->string('title', 140);
             $table->text('message');
             $table->timestamps();
             $table->softDeletes();
